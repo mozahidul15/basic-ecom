@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin: 20;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 90px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo a{
+  font-size: 2rem;
+  color: #2f2e41;
+  text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  font-weight: bold;
+  letter-spacing: 1;
+}
+
+.searcharea{
+  position: fixed;
+  right: 90px;
+  top: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 2px 2px 30px rgba(74, 73, 81, 0.2);
+  box-sizing: content-box;
+  z-index: 1;
+  border: 1px solid rgba(167,158,245,0.1);
+  padding: 10px 25px;
+}
+
+.searcharea input{
+  width: 90px;
+  height: 20px;
+  border: none;
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+.section-1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 150px;
+}
+.img img{
+  width: 75%;
+}
+
+.text{
+  padding-top: 50px;
+}
+
+.text h1{
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.color{
+  color: rgba(0, 0, 255, 0.552);
+}
+
+.text button{
+  margin-top: 15px;
+  padding: 15px 55px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f2e41;
+  color: white;
+}
+
+.text button:hover{
+  background-color: #ffffff;
+  color: #2f2e41;
+  transition: 0.55s;
+}
+
+
+.iconarea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 30px;
+  top:35%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 15px 5px 15px 7px;
+  box-shadow: 2px 2px 30px rgba(74, 73, 81, 0.2);
+
+}
+
+.iconarea a{
+  padding: 20px 10px ;
+  color: #000;
+
+}
+
+.iconarea a:hover{
+
+  color: #00000033;
+
+}
+
+.productsbox{
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.productsbox img{
+  width: 60%;
+}
+
+.productsection .heading h1{
+  text-align: center;
+}
+
+.productsbox .product{
+
+  border: 1px solid rgba(74, 73, 81, 0.2);
+  border-radius: 25px;
+  margin: 20px;
+  text-align: center;
+  padding: 50px 10px;
+  box-shadow: 2px 2px 30px rgba(74, 73, 81, 0.2);
+
+}
+
+.productsbox .product p{
+  padding: 30px 0px 0px 0px;
+}
+
+
+.addtocart{
+  background-color: aqua;
+  padding: 10px 25px;
+}
+
+
+.about{
+  display: flex;
+  justify-content:center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+
+}
+
+.about-img img{
+  width: 100% ;
+  padding-top: 70px;
+}
+
+.textarea{
+  padding-right: 200px;
+}
+
+
+.email{
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.emailinput input{
+  padding: 10px 120px;
+  border-radius: 25px;
+  border: 1px solid;
+}
+
+.footer{
+  background-color: #2f2e41;
+  padding: 15PX 0;
+  margin-top: 70PX;
+}
+
+.footer P{
+  text-align: center;
+  color: white;
+}
